@@ -204,6 +204,36 @@ input {
     url(images/cautious.jpg);
 }
 
+.content-image-7 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/narutos.jpg);
+}
+
+.content-image-8 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/dragon.jpg);
+}
+
+.content-image-9 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/death.jpg);
+}
+
+.content-image-10 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/naruto.jpg);
+}
+
+.content-image-11 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/pokemon.jpg);
+}
+
+.content-image-12 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/fullmetal.jpg);
+}
+
 .content-image {
   background-repeat: no-repeat;
   background-size: cover;
