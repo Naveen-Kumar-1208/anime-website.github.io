@@ -62,3 +62,86 @@ input {
   border-left: 1px solid white;
   padding: 28px;
 }
+
+.main {
+  background-color: black;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  padding: 30px 40px;
+}
+
+.side-left {
+  flex: 1;
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/boruto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.side-right {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.side-1 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/one-piece.jpg);
+  width: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.side-2 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/myhero.jpg);
+  width: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.side-3 {
+  background: url(images/assasin.jpg);
+  width: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.side-4 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/demon.jpg);
+  width: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.container p a {
+  color: white;
+  text-decoration: none;
+}
+
+.container p a:hover {
+  color: #afeeee;
+}
