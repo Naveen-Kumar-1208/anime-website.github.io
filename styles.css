@@ -17,8 +17,8 @@ body {
 }
 
 .logo {
-  width: 100px;
-  height: 60px;
+  width: 93px;
+  height: 69px;
 }
 
 .navbar li {
@@ -144,4 +144,99 @@ input {
 
 .container p a:hover {
   color: #afeeee;
+}
+
+.content {
+  width: 90%;
+  margin: auto;
+}
+
+.content-heading {
+  display: flex;
+  align-items: center;
+}
+
+.content-heading p {
+  margin-left: auto;
+}
+
+.content-heading p a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+.content-heading p a:hover {
+  color: red;
+}
+.content-images {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  justify-content: space-between;
+}
+
+.content-image-1 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/onepunch.jpg);
+}
+
+.content-image-2 {
+  background: linear-gradient(45deg, #000000, transparent), url(images/fire.jpg);
+}
+
+.content-image-3 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/sword.jpg);
+}
+
+.content-image-4 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/silent.jpg);
+}
+
+.content-image-5 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/beastars.jpg);
+}
+
+.content-image-6 {
+  background: linear-gradient(45deg, #000000, transparent),
+    url(images/cautious.jpg);
+}
+
+.content-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 32%;
+  margin-bottom: 20px;
+  display: grid;
+  padding: 5px;
+}
+
+.content-image p:nth-child(1) {
+  width: 55px;
+  height: 22px;
+  background: #0094d6;
+  border-radius: 4px;
+  color: white;
+}
+
+.content-image p:nth-child(1):hover {
+  background-color: blue;
+}
+
+.content-image p:nth-child(2) {
+  align-self: self-end;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content-image p a {
+  text-decoration: none;
+  color: white;
+}
+
+.content-image p a:hover {
+  color: skyblue;
 }
